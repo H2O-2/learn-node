@@ -4,8 +4,12 @@
   "description": "NodeJS practices from https://www.coursera.org/learn/server-side-development/",
   "main": "index.js",
   "scripts": {
-    "http-1": "tsc; node lib/server-1",
-    "http-2": "tsc; node lib/server-2"
+    "http-1": "tsc; node lib/node-http/server-1",
+    "http-2": "tsc; node lib/node-http/server-2",
+    "express-1": "tsc; node lib/node-express/server-1",
+    "express-2": "tsc; node lib/node-express/server-2",
+    "express-3": "tsc; node lib/node-express/server-3",
+    "express-4": "tsc; node lib/node-express/server-4"
   },
   "repository": {
     "type": "git",
@@ -18,9 +22,13 @@
   },
   "homepage": "https://github.com/H2O-2/learn-node#readme",
   "dependencies": {
+    "@types/body-parser": "^1.16.4",
     "@types/express": "^4.0.36",
+    "@types/morgan": "^1.7.32",
     "@types/node": "^8.0.9",
-    "express": "^4.15.3"
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2"
   },
   "devDependencies": {
     "tslint": "^5.5.0",
