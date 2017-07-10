@@ -9,7 +9,8 @@
     "express-1": "tsc; node lib/node-express/server-1",
     "express-2": "tsc; node lib/node-express/server-2",
     "express-3": "tsc; node lib/node-express/server-3",
-    "express-4": "tsc; node lib/node-express/server-4"
+    "express-4": "tsc; node lib/node-express/server-4",
+    "a1": "tsc; node lib/a1/index"
   },
   "repository": {
     "type": "git",
