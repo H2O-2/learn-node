@@ -2,8 +2,8 @@ import * as assert from 'assert';
 import * as mongodb from 'mongodb';
 import * as dboper from './operations';
 
-const MongoClient = mongodb.MongoClient;
-const url = 'mongodb://localhost:27017/conFusion';
+const MongoClient: mongodb.MongoClient = mongodb.MongoClient;
+const url: string = 'mongodb://localhost:27017/conFusion';
 
 MongoClient.connect(url, (err: mongodb.MongoError, db: mongodb.Db) => {
     assert.equal(err, null);
